@@ -21,7 +21,7 @@ When the time of your alarm comes, **ΛVΛ** will ring up to 64 times before fin
 
 ---------------------------------------------------------------------------------------------------------------------
 
-######All information is pulled from Avalon's page on the iOS App Store. You can visit this page [here] (http://www.neotechnica.us).
+######All information is pulled from ΛVΛ's page on the iOS App Store. You can visit this page [here] (http://www.neotechnica.us).
 
 ---------------------------------------------------------------------------------------------------------------------
 
