@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Main Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="MC" title="Main Controller" id="BYZ-38-t0r" customClass="MC" customModule="ΛVΛ" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="jc0-b6-0FR">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="6uq-aa-j5H">
+                                        <rect key="frame" x="20" y="333" width="374" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I want to" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OPf-km-JC1">
+                                                <rect key="frame" x="59" y="0.0" width="280" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Bjk-b2-a5m" customClass="WRB" customModule="ΛVΛ" customModuleProvider="target">
+                                                <rect key="frame" x="129" y="41" width="140" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Create an alarm"/>
+                                            </button>
+                                            <view contentMode="scaleToFill" id="Hfx-uj-VkS">
+                                                <rect key="frame" x="79" y="32" width="240" height="1"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vid-T0-UCL" customClass="RRB" customModule="ΛVΛ" customModuleProvider="target">
+                                                <rect key="frame" x="129" y="41" width="140" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Cancel my alarm"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mko-hf-gLF" customClass="WRB" customModule="ΛVΛ" customModuleProvider="target">
+                                                <rect key="frame" x="98" y="41" width="90" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Today"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gbk-M4-Mud" customClass="WRB" customModule="ΛVΛ" customModuleProvider="target">
+                                                <rect key="frame" x="196" y="41" width="90" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Tomorrow"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.16862745098039217" green="0.16862745098039217" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good afternoon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HWC-Ft-yCq">
+                                        <rect key="frame" x="20" y="348" width="374" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view alpha="0.59999999999999998" contentMode="scaleToFill" id="wOY-Hb-aV7">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view alpha="0.59999999999999998" contentMode="scaleToFill" id="p1a-Uk-8Xa">
+                                                <rect key="frame" x="71" y="0.0" width="1" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                            <view alpha="0.60000002384185791" contentMode="scaleToFill" id="CSb-4n-D5i">
+                                                <rect key="frame" x="343" y="0.0" width="1" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.6.18" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zZN-UQ-Uhj">
+                                                <rect key="frame" x="0.0" y="0.0" width="70" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INT-TES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Vty-Br-RI3">
+                                                <rect key="frame" x="344" y="0.0" width="70" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2401-APP-10941" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bqL-Uq-T6l">
+                                                <rect key="frame" x="71" y="0.0" width="273" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.6.18" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PB1-TL-mWf">
+                                        <rect key="frame" x="110" y="698" width="100" height="15"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SKU:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4Y8-o7-g2j">
+                                        <rect key="frame" x="8" y="713" width="40" height="15"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="13"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bundle Version:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HXA-0V-kfM">
+                                        <rect key="frame" x="8" y="698" width="100" height="15"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="13"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2401-APP-10941" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tGL-A4-eRm">
+                                        <rect key="frame" x="42" y="713" width="100" height="15"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Designation:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GBu-M1-FcF">
+                                        <rect key="frame" x="8" y="683" width="79" height="15"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="13"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INT-TES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BLC-Tf-dPv">
+                                        <rect key="frame" x="90" y="683" width="100" height="15"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For testing purposes only." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Xet-AD-U4B">
+                                        <rect key="frame" x="126" y="713" width="280" height="15"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Xus-Sr-Vcc">
+                                        <rect key="frame" x="126" y="698" width="280" height="15"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="13"/>
+                                        <state key="normal" title="Project Code Name: Macintosh">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="codeNameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="evF-63-FSt"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="dZv-RK-Sm6">
+                                        <rect key="frame" x="371" y="676" width="35" height="19"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <gestureRecognizers/>
+                                        <state key="normal" image="NT.png"/>
+                                        <connections>
+                                            <action selector="informationButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fPa-TQ-HOd"/>
+                                            <action selector="ntButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sfc-dG-vgX"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Iy2-iN-4qS">
+                                        <rect key="frame" x="354" y="699" width="50" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <gestureRecognizers/>
+                                        <state key="normal" image="NT.png"/>
+                                        <connections>
+                                            <action selector="ntButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wCG-gM-JVp"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hju-B1-kbf">
+                                        <rect key="frame" x="224" y="706" width="180" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <gestureRecognizers/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                        <state key="normal" title="1.0.0.100">
+                                            <color key="titleColor" red="0.86274509799999999" green="0.86274509799999999" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buildButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lmW-lp-MmG"/>
+                                            <outletCollection property="gestureRecognizers" destination="Z94-qB-3sS" appends="YES" id="zVL-oR-wdw"/>
+                                        </connections>
+                                    </button>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good afternoon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="M9u-34-CgW">
+                                        <rect key="frame" x="20" y="20" width="374" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.16862745098039217" green="0.16862745098039217" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.16862745098039217" green="0.16862745098039217" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="414" height="736"/>
+                    <connections>
+                        <outlet property="buildButton" destination="hju-B1-kbf" id="vFT-SO-MXk"/>
+                        <outlet property="bundleVersionLabel" destination="HXA-0V-kfM" id="PAm-ua-mSt"/>
+                        <outlet property="bundleVersionSubtitleLabel" destination="PB1-TL-mWf" id="vPc-oJ-dmD"/>
+                        <outlet property="cancelMyAlarmButton" destination="vid-T0-UCL" id="iu6-ct-CGa"/>
+                        <outlet property="codeNameButton" destination="Xus-Sr-Vcc" id="QHg-hR-VhY"/>
+                        <outlet property="createAnAlarmButton" destination="Bjk-b2-a5m" id="IQW-fg-Ybm"/>
+                        <outlet property="designationLabel" destination="GBu-M1-FcF" id="wOi-cb-vcY"/>
+                        <outlet property="designationSubtitleLabel" destination="BLC-Tf-dPv" id="B2T-WR-MJM"/>
+                        <outlet property="greetingLabel" destination="HWC-Ft-yCq" id="1H6-ev-0ed"/>
+                        <outlet property="hiddenGreetingLabel" destination="M9u-34-CgW" id="J95-JW-a3f"/>
+                        <outlet property="informationButton" destination="dZv-RK-Sm6" id="HBh-RH-TqD"/>
+                        <outlet property="lineView" destination="Hfx-uj-VkS" id="v9d-eB-rdL"/>
+                        <outlet property="longPress" destination="Z94-qB-3sS" id="S5G-Jh-rAy"/>
+                        <outlet property="ntButton" destination="Iy2-iN-4qS" id="c8U-UB-qxO"/>
+                        <outlet property="optionsView" destination="6uq-aa-j5H" id="FS7-lq-yvK"/>
+                        <outlet property="preReleaseNotifierLabel" destination="Xet-AD-U4B" id="n4g-Yz-Kag"/>
+                        <outlet property="screenShotView" destination="wOY-Hb-aV7" id="w1T-dh-ROB"/>
+                        <outlet property="skuLabel" destination="4Y8-o7-g2j" id="NZB-su-2y8"/>
+                        <outlet property="skuLabelSubtitleLabel" destination="tGL-A4-eRm" id="LLc-Ps-7GE"/>
+                        <outlet property="todayButton" destination="mko-hf-gLF" id="DJP-Mr-wAa"/>
+                        <outlet property="tomorrowButton" destination="gbk-M4-Mud" id="b8b-GL-3Ht"/>
+                        <outlet property="topDesignationLabel" destination="Vty-Br-RI3" id="su8-42-WEy"/>
+                        <outlet property="topSkuLabel" destination="bqL-Uq-T6l" id="y86-H8-f8H"/>
+                        <outlet property="topVersionLabel" destination="zZN-UQ-Uhj" id="ohS-mv-l13"/>
+                        <outlet property="totalEnclosingView" destination="jc0-b6-0FR" id="dJj-n2-eBT"/>
+                        <outlet property="userRequestLabel" destination="OPf-km-JC1" id="Ulu-sl-78Z"/>
+                        <segue destination="CiQ-43-x3Y" kind="custom" identifier="createAlarmSegue" customClass="FFM" customModule="ΛVΛ" customModuleProvider="target" id="SJz-Jr-cSr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="Z94-qB-3sS">
+                    <connections>
+                        <action selector="longPress:" destination="BYZ-38-t0r" id="Xkx-Bj-3HH"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="184" y="372"/>
+        </scene>
+        <!--RC-->
+        <scene sceneID="kCY-cU-oig">
+            <objects>
+                <viewController id="CiQ-43-x3Y" customClass="RC" customModule="ΛVΛ" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wdW-FO-sqD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.0" contentMode="scaleToFill" id="cVg-UJ-5Bw">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="yIW-zT-ygQ" customClass="WRB" customModule="ΛVΛ" customModuleProvider="target">
+                                        <rect key="frame" x="167" y="484" width="80" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Confirm"/>
+                                    </button>
+                                    <view contentMode="scaleToFill" id="ezf-Hg-SZa">
+                                        <rect key="frame" x="0.0" y="224" width="414" height="245"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" id="IzY-EO-coi">
+                                                <rect key="frame" x="248" y="29" width="166" height="216"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <date key="date" timeIntervalSinceReferenceDate="486498447.08859199">
+                                                    <!--2016-06-01 18:27:27 +0000-->
+                                                </date>
+                                            </datePicker>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This alarm will ring between tomorrow at" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hks-U4-zct">
+                                                <rect key="frame" x="20" y="0.0" width="374" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="and" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Osv-lc-6ug">
+                                                <rect key="frame" x="186" y="126" width="42" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" id="5Ad-Yz-3st">
+                                                <rect key="frame" x="0.0" y="29" width="166" height="216"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <date key="date" timeIntervalSinceReferenceDate="486498447.08859199">
+                                                    <!--2016-06-01 18:27:27 +0000-->
+                                                </date>
+                                            </datePicker>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.16862745098039217" green="0.16862745098039217" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5l5-bk-0Kz" customClass="RRB" customModule="ΛVΛ" customModuleProvider="target">
+                                        <rect key="frame" x="167" y="522" width="80" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Cancel"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.16862745098039217" green="0.16862745098039217" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.16862745098039217" green="0.16862745098039217" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="414" height="736"/>
+                    <connections>
+                        <outlet property="alarmWillRingLabel" destination="hks-U4-zct" id="178-1S-Cwe"/>
+                        <outlet property="cancelButton" destination="5l5-bk-0Kz" id="FGY-bq-f3l"/>
+                        <outlet property="confirmButton" destination="yIW-zT-ygQ" id="EAT-Nb-xk7"/>
+                        <outlet property="firstDatePicker" destination="5Ad-Yz-3st" id="Sa5-JF-1U5"/>
+                        <outlet property="longPress" destination="Z94-qB-3sS" id="Ury-IS-uGd"/>
+                        <outlet property="ringOptionsView" destination="ezf-Hg-SZa" id="nWc-Ys-1od"/>
+                        <outlet property="secondDatePicker" destination="IzY-EO-coi" id="hlm-6k-UZE"/>
+                        <outlet property="totalEnclosingView" destination="cVg-UJ-5Bw" id="okz-nr-F4o"/>
+                        <segue destination="BYZ-38-t0r" kind="custom" identifier="backToStartSegue" customClass="FFR" customModule="ΛVΛ" customModuleProvider="target" id="ies-Ri-xr9"/>
+                    </connections>
+                </viewController>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="hGa-wF-BuI">
+                    <connections>
+                        <action selector="longPress:" destination="CiQ-43-x3Y" id="C1y-IN-ryu"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5nY-JH-wgu" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="958" y="338"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="NT.png" width="996" height="545"/>
+    </resources>
+</document>

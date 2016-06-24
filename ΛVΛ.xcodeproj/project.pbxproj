@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		681062121D1A044900BDFA1B /* Ring-Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681062111D1A044900BDFA1B /* Ring-Controller.swift */; };
+		681A1FFE1CFCCD7D005BAAA9 /* 4.7 Inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 681A1FFB1CFCCD7D005BAAA9 /* 4.7 Inch.storyboard */; };
+		681A1FFF1CFCCD7D005BAAA9 /* 3.5 Inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 681A1FFC1CFCCD7D005BAAA9 /* 3.5 Inch.storyboard */; };
+		681A20001CFCCD7D005BAAA9 /* 4 Inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 681A1FFD1CFCCD7D005BAAA9 /* 4 Inch.storyboard */; };
+		681A200D1CFCD55D005BAAA9 /* Ostrich Sans (Black).otf in Resources */ = {isa = PBXBuildFile; fileRef = 681A20041CFCD55D005BAAA9 /* Ostrich Sans (Black).otf */; };
+		681A200E1CFCD55D005BAAA9 /* Ostrich Sans (Bold).otf in Resources */ = {isa = PBXBuildFile; fileRef = 681A20051CFCD55D005BAAA9 /* Ostrich Sans (Bold).otf */; };
+		681A200F1CFCD55D005BAAA9 /* Ostrich Sans (Dashed –Medium).otf in Resources */ = {isa = PBXBuildFile; fileRef = 681A20061CFCD55D005BAAA9 /* Ostrich Sans (Dashed –Medium).otf */; };
+		681A20101CFCD55D005BAAA9 /* Ostrich Sans (Heavy).otf in Resources */ = {isa = PBXBuildFile; fileRef = 681A20071CFCD55D005BAAA9 /* Ostrich Sans (Heavy).otf */; };
+		681A20111CFCD55D005BAAA9 /* Ostrich Sans (Inline – Italic).otf in Resources */ = {isa = PBXBuildFile; fileRef = 681A20081CFCD55D005BAAA9 /* Ostrich Sans (Inline – Italic).otf */; };
+		681A20121CFCD55D005BAAA9 /* Ostrich Sans (Inline – Regular).otf in Resources */ = {isa = PBXBuildFile; fileRef = 681A20091CFCD55D005BAAA9 /* Ostrich Sans (Inline – Regular).otf */; };
+		681A20131CFCD55D005BAAA9 /* Ostrich Sans (Light).otf in Resources */ = {isa = PBXBuildFile; fileRef = 681A200A1CFCD55D005BAAA9 /* Ostrich Sans (Light).otf */; };
+		681A20141CFCD55D005BAAA9 /* Ostrich Sans (Medium).otf in Resources */ = {isa = PBXBuildFile; fileRef = 681A200B1CFCD55D005BAAA9 /* Ostrich Sans (Medium).otf */; };
+		681A20151CFCD55D005BAAA9 /* Ostrich Sans (Rounded – Medium).otf in Resources */ = {isa = PBXBuildFile; fileRef = 681A200C1CFCD55D005BAAA9 /* Ostrich Sans (Rounded – Medium).otf */; };
+		682A9B061C8E63E900014EA5 /* 5.5 Inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 682A9B041C8E63E900014EA5 /* 5.5 Inch.storyboard */; };
+		684986061CFE4C5F004308A9 /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 684986051CFE4C5F004308A9 /* ding.mp3 */; };
+		68666F471D02788300311F14 /* Black-Rounded-Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68666F461D02788300311F14 /* Black-Rounded-Button.swift */; };
+		68666F491D02793800311F14 /* White-Rounded-Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68666F481D02793800311F14 /* White-Rounded-Button.swift */; };
+		6874043A1CB1AAEA00BD2632 /* Bariol (Bold).otf in Resources */ = {isa = PBXBuildFile; fileRef = 687404351CB1AAEA00BD2632 /* Bariol (Bold).otf */; };
+		6874043B1CB1AAEA00BD2632 /* Bariol (Bold Italic).otf in Resources */ = {isa = PBXBuildFile; fileRef = 687404361CB1AAEA00BD2632 /* Bariol (Bold Italic).otf */; };
+		6874043C1CB1AAEA00BD2632 /* Bariol (Regular Italic).otf in Resources */ = {isa = PBXBuildFile; fileRef = 687404371CB1AAEA00BD2632 /* Bariol (Regular Italic).otf */; };
+		6874043D1CB1AAEA00BD2632 /* Bariol (Regular).otf in Resources */ = {isa = PBXBuildFile; fileRef = 687404381CB1AAEA00BD2632 /* Bariol (Regular).otf */; };
+		6874043E1CB1AAEA00BD2632 /* Manteka.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 687404391CB1AAEA00BD2632 /* Manteka.ttf */; };
+		687404411CB1AB0000BD2632 /* NT.png in Resources */ = {isa = PBXBuildFile; fileRef = 6874043F1CB1AB0000BD2632 /* NT.png */; };
+		687404421CB1AB0000BD2632 /* Wave.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 687404401CB1AB0000BD2632 /* Wave.jpg */; };
+		687404481CB1AB3400BD2632 /* Main-Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687404471CB1AB3400BD2632 /* Main-Controller.swift */; };
+		6874044D1CB1AB4400BD2632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6874044A1CB1AB4400BD2632 /* AppDelegate.swift */; };
+		6874044E1CB1AB4400BD2632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6874044B1CB1AB4400BD2632 /* Assets.xcassets */; };
+		687404511CB1AC0C00BD2632 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6874044F1CB1AC0C00BD2632 /* Launch Screen.storyboard */; };
+		6889BF8B1CFF64B2000FCD38 /* Outlined-Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6889BF8A1CFF64B2000FCD38 /* Outlined-Label.swift */; };
+		6889BF971CFF7193000FCD38 /* DirectoryCreationOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6889BF8D1CFF7193000FCD38 /* DirectoryCreationOperation.swift */; };
+		6889BF981CFF7193000FCD38 /* FileDownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6889BF8E1CFF7193000FCD38 /* FileDownloadOperation.swift */; };
+		6889BF991CFF7193000FCD38 /* FileUploadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6889BF8F1CFF7193000FCD38 /* FileUploadOperation.swift */; };
+		6889BF9A1CFF7193000FCD38 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6889BF901CFF7193000FCD38 /* Info.plist */; };
+		6889BF9B1CFF7193000FCD38 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6889BF911CFF7193000FCD38 /* Operation.swift */; };
+		6889BF9C1CFF7193000FCD38 /* ReadStreamOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6889BF921CFF7193000FCD38 /* ReadStreamOperation.swift */; };
+		6889BF9D1CFF7193000FCD38 /* ResourceListOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6889BF931CFF7193000FCD38 /* ResourceListOperation.swift */; };
+		6889BF9E1CFF7193000FCD38 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6889BF941CFF7193000FCD38 /* Session.swift */; };
+		6889BF9F1CFF7193000FCD38 /* StreamOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6889BF951CFF7193000FCD38 /* StreamOperation.swift */; };
+		6889BFA01CFF7193000FCD38 /* WriteStreamOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6889BF961CFF7193000FCD38 /* WriteStreamOperation.swift */; };
+		688A4F221D1B5B3000F76DA7 /* Fade-From-Ring-Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688A4F211D1B5B3000F76DA7 /* Fade-From-Ring-Segue.swift */; };
+		68AD46321CFCDE3F003EC6BB /* DIN Condensed (Bold).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 681A20181CFCDC39005BAAA9 /* DIN Condensed (Bold).ttf */; };
+		68E876561D19F888004D9CCE /* Red-Rounded-Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E876551D19F888004D9CCE /* Red-Rounded-Button.swift */; };
+		68EAD7E51D19EBC90095F169 /* Fade-From-Main-Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EAD7E41D19EBC90095F169 /* Fade-From-Main-Segue.swift */; };
+		68EAD7E71D19ED6B0095F169 /* UIStoryboardSegue+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EAD7E61D19ED6B0095F169 /* UIStoryboardSegue+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		681062111D1A044900BDFA1B /* Ring-Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ring-Controller.swift"; sourceTree = "<group>"; };
+		681A1FFB1CFCCD7D005BAAA9 /* 4.7 Inch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "4.7 Inch.storyboard"; sourceTree = "<group>"; };
+		681A1FFC1CFCCD7D005BAAA9 /* 3.5 Inch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "3.5 Inch.storyboard"; sourceTree = "<group>"; };
+		681A1FFD1CFCCD7D005BAAA9 /* 4 Inch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "4 Inch.storyboard"; sourceTree = "<group>"; };
+		681A20041CFCD55D005BAAA9 /* Ostrich Sans (Black).otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ostrich Sans (Black).otf"; sourceTree = "<group>"; };
+		681A20051CFCD55D005BAAA9 /* Ostrich Sans (Bold).otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ostrich Sans (Bold).otf"; sourceTree = "<group>"; };
+		681A20061CFCD55D005BAAA9 /* Ostrich Sans (Dashed –Medium).otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ostrich Sans (Dashed –Medium).otf"; sourceTree = "<group>"; };
+		681A20071CFCD55D005BAAA9 /* Ostrich Sans (Heavy).otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ostrich Sans (Heavy).otf"; sourceTree = "<group>"; };
+		681A20081CFCD55D005BAAA9 /* Ostrich Sans (Inline – Italic).otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ostrich Sans (Inline – Italic).otf"; sourceTree = "<group>"; };
+		681A20091CFCD55D005BAAA9 /* Ostrich Sans (Inline – Regular).otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ostrich Sans (Inline – Regular).otf"; sourceTree = "<group>"; };
+		681A200A1CFCD55D005BAAA9 /* Ostrich Sans (Light).otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ostrich Sans (Light).otf"; sourceTree = "<group>"; };
+		681A200B1CFCD55D005BAAA9 /* Ostrich Sans (Medium).otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ostrich Sans (Medium).otf"; sourceTree = "<group>"; };
+		681A200C1CFCD55D005BAAA9 /* Ostrich Sans (Rounded – Medium).otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ostrich Sans (Rounded – Medium).otf"; sourceTree = "<group>"; };
+		681A20181CFCDC39005BAAA9 /* DIN Condensed (Bold).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN Condensed (Bold).ttf"; sourceTree = "<group>"; };
+		682A9AFD1C8E63E900014EA5 /* ΛVΛ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ΛVΛ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		682A9B051C8E63E900014EA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/5.5 Inch.storyboard"; sourceTree = "<group>"; };
+		684986051CFE4C5F004308A9 /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding.mp3; sourceTree = "<group>"; };
+		68666F461D02788300311F14 /* Black-Rounded-Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Black-Rounded-Button.swift"; sourceTree = "<group>"; };
+		68666F481D02793800311F14 /* White-Rounded-Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "White-Rounded-Button.swift"; sourceTree = "<group>"; };
+		687404351CB1AAEA00BD2632 /* Bariol (Bold).otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bariol (Bold).otf"; sourceTree = "<group>"; };
+		687404361CB1AAEA00BD2632 /* Bariol (Bold Italic).otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bariol (Bold Italic).otf"; sourceTree = "<group>"; };
+		687404371CB1AAEA00BD2632 /* Bariol (Regular Italic).otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bariol (Regular Italic).otf"; sourceTree = "<group>"; };
+		687404381CB1AAEA00BD2632 /* Bariol (Regular).otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bariol (Regular).otf"; sourceTree = "<group>"; };
+		687404391CB1AAEA00BD2632 /* Manteka.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Manteka.ttf; sourceTree = "<group>"; };
+		6874043F1CB1AB0000BD2632 /* NT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NT.png; sourceTree = "<group>"; };
+		687404401CB1AB0000BD2632 /* Wave.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wave.jpg; sourceTree = "<group>"; };
+		687404471CB1AB3400BD2632 /* Main-Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Main-Controller.swift"; sourceTree = "<group>"; };
+		687404491CB1AB4400BD2632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6874044A1CB1AB4400BD2632 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6874044B1CB1AB4400BD2632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		687404501CB1AC0C00BD2632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		6889BF8A1CFF64B2000FCD38 /* Outlined-Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Outlined-Label.swift"; sourceTree = "<group>"; };
+		6889BF8D1CFF7193000FCD38 /* DirectoryCreationOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryCreationOperation.swift; sourceTree = "<group>"; };
+		6889BF8E1CFF7193000FCD38 /* FileDownloadOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileDownloadOperation.swift; sourceTree = "<group>"; };
+		6889BF8F1CFF7193000FCD38 /* FileUploadOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUploadOperation.swift; sourceTree = "<group>"; };
+		6889BF901CFF7193000FCD38 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6889BF911CFF7193000FCD38 /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		6889BF921CFF7193000FCD38 /* ReadStreamOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadStreamOperation.swift; sourceTree = "<group>"; };
+		6889BF931CFF7193000FCD38 /* ResourceListOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceListOperation.swift; sourceTree = "<group>"; };
+		6889BF941CFF7193000FCD38 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		6889BF951CFF7193000FCD38 /* StreamOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamOperation.swift; sourceTree = "<group>"; };
+		6889BF961CFF7193000FCD38 /* WriteStreamOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriteStreamOperation.swift; sourceTree = "<group>"; };
+		688A4F211D1B5B3000F76DA7 /* Fade-From-Ring-Segue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fade-From-Ring-Segue.swift"; sourceTree = "<group>"; };
+		68E876551D19F888004D9CCE /* Red-Rounded-Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Red-Rounded-Button.swift"; sourceTree = "<group>"; };
+		68EAD7E41D19EBC90095F169 /* Fade-From-Main-Segue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fade-From-Main-Segue.swift"; sourceTree = "<group>"; };
+		68EAD7E61D19ED6B0095F169 /* UIStoryboardSegue+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboardSegue+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		682A9AFA1C8E63E900014EA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		681A20011CFCD470005BAAA9 /* Bariol */ = {
+			isa = PBXGroup;
+			children = (
+				687404351CB1AAEA00BD2632 /* Bariol (Bold).otf */,
+				687404361CB1AAEA00BD2632 /* Bariol (Bold Italic).otf */,
+				687404381CB1AAEA00BD2632 /* Bariol (Regular).otf */,
+				687404371CB1AAEA00BD2632 /* Bariol (Regular Italic).otf */,
+			);
+			name = Bariol;
+			sourceTree = "<group>";
+		};
+		681A20021CFCD478005BAAA9 /* Manteka */ = {
+			isa = PBXGroup;
+			children = (
+				687404391CB1AAEA00BD2632 /* Manteka.ttf */,
+			);
+			name = Manteka;
+			sourceTree = "<group>";
+		};
+		681A20031CFCD481005BAAA9 /* Ostrich Sans */ = {
+			isa = PBXGroup;
+			children = (
+				681A20041CFCD55D005BAAA9 /* Ostrich Sans (Black).otf */,
+				681A20051CFCD55D005BAAA9 /* Ostrich Sans (Bold).otf */,
+				681A20061CFCD55D005BAAA9 /* Ostrich Sans (Dashed –Medium).otf */,
+				681A20071CFCD55D005BAAA9 /* Ostrich Sans (Heavy).otf */,
+				681A20081CFCD55D005BAAA9 /* Ostrich Sans (Inline – Italic).otf */,
+				681A20091CFCD55D005BAAA9 /* Ostrich Sans (Inline – Regular).otf */,
+				681A200A1CFCD55D005BAAA9 /* Ostrich Sans (Light).otf */,
+				681A200B1CFCD55D005BAAA9 /* Ostrich Sans (Medium).otf */,
+				681A200C1CFCD55D005BAAA9 /* Ostrich Sans (Rounded – Medium).otf */,
+			);
+			name = "Ostrich Sans";
+			sourceTree = "<group>";
+		};
+		681A20161CFCDC26005BAAA9 /* DIN Condensed */ = {
+			isa = PBXGroup;
+			children = (
+				681A20181CFCDC39005BAAA9 /* DIN Condensed (Bold).ttf */,
+			);
+			name = "DIN Condensed";
+			sourceTree = "<group>";
+		};
+		682A9AF41C8E63E900014EA5 = {
+			isa = PBXGroup;
+			children = (
+				682A9AFF1C8E63E900014EA5 /* Avalon */,
+				682A9AFE1C8E63E900014EA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		682A9AFE1C8E63E900014EA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				682A9AFD1C8E63E900014EA5 /* ΛVΛ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		682A9AFF1C8E63E900014EA5 /* Avalon */ = {
+			isa = PBXGroup;
+			children = (
+				682A9B1D1C8E64BD00014EA5 /* Font Files */,
+				682A9B241C8E749D00014EA5 /* Image Files */,
+				682A9B1E1C8E64CE00014EA5 /* Storyboard Files */,
+				682A9B201C8E64F700014EA5 /* View Controllers */,
+				682A9B211C8E64FC00014EA5 /* Supporting Files */,
+			);
+			name = Avalon;
+			path = Application;
+			sourceTree = "<group>";
+		};
+		682A9B1D1C8E64BD00014EA5 /* Font Files */ = {
+			isa = PBXGroup;
+			children = (
+				681A20161CFCDC26005BAAA9 /* DIN Condensed */,
+				681A20011CFCD470005BAAA9 /* Bariol */,
+				681A20021CFCD478005BAAA9 /* Manteka */,
+				681A20031CFCD481005BAAA9 /* Ostrich Sans */,
+			);
+			name = "Font Files";
+			sourceTree = "<group>";
+		};
+		682A9B1E1C8E64CE00014EA5 /* Storyboard Files */ = {
+			isa = PBXGroup;
+			children = (
+				682A9B041C8E63E900014EA5 /* 5.5 Inch.storyboard */,
+				681A1FFB1CFCCD7D005BAAA9 /* 4.7 Inch.storyboard */,
+				681A1FFD1CFCCD7D005BAAA9 /* 4 Inch.storyboard */,
+				681A1FFC1CFCCD7D005BAAA9 /* 3.5 Inch.storyboard */,
+				6874044F1CB1AC0C00BD2632 /* Launch Screen.storyboard */,
+			);
+			name = "Storyboard Files";
+			sourceTree = "<group>";
+		};
+		682A9B201C8E64F700014EA5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				687404471CB1AB3400BD2632 /* Main-Controller.swift */,
+				681062111D1A044900BDFA1B /* Ring-Controller.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		682A9B211C8E64FC00014EA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68666F451D02787500311F14 /* Rounded Button */,
+				6889BF8C1CFF7193000FCD38 /* Rebekka */,
+				6874044A1CB1AB4400BD2632 /* AppDelegate.swift */,
+				6874044B1CB1AB4400BD2632 /* Assets.xcassets */,
+				684986051CFE4C5F004308A9 /* ding.mp3 */,
+				68EAD7E41D19EBC90095F169 /* Fade-From-Main-Segue.swift */,
+				688A4F211D1B5B3000F76DA7 /* Fade-From-Ring-Segue.swift */,
+				687404491CB1AB4400BD2632 /* Info.plist */,
+				6889BF8A1CFF64B2000FCD38 /* Outlined-Label.swift */,
+				68EAD7E61D19ED6B0095F169 /* UIStoryboardSegue+Extensions.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		682A9B241C8E749D00014EA5 /* Image Files */ = {
+			isa = PBXGroup;
+			children = (
+				6874043F1CB1AB0000BD2632 /* NT.png */,
+				687404401CB1AB0000BD2632 /* Wave.jpg */,
+			);
+			name = "Image Files";
+			sourceTree = "<group>";
+		};
+		68666F451D02787500311F14 /* Rounded Button */ = {
+			isa = PBXGroup;
+			children = (
+				68666F461D02788300311F14 /* Black-Rounded-Button.swift */,
+				68E876551D19F888004D9CCE /* Red-Rounded-Button.swift */,
+				68666F481D02793800311F14 /* White-Rounded-Button.swift */,
+			);
+			name = "Rounded Button";
+			sourceTree = "<group>";
+		};
+		6889BF8C1CFF7193000FCD38 /* Rebekka */ = {
+			isa = PBXGroup;
+			children = (
+				6889BF8D1CFF7193000FCD38 /* DirectoryCreationOperation.swift */,
+				6889BF8E1CFF7193000FCD38 /* FileDownloadOperation.swift */,
+				6889BF8F1CFF7193000FCD38 /* FileUploadOperation.swift */,
+				6889BF901CFF7193000FCD38 /* Info.plist */,
+				6889BF911CFF7193000FCD38 /* Operation.swift */,
+				6889BF921CFF7193000FCD38 /* ReadStreamOperation.swift */,
+				6889BF931CFF7193000FCD38 /* ResourceListOperation.swift */,
+				6889BF941CFF7193000FCD38 /* Session.swift */,
+				6889BF951CFF7193000FCD38 /* StreamOperation.swift */,
+				6889BF961CFF7193000FCD38 /* WriteStreamOperation.swift */,
+			);
+			path = Rebekka;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		682A9AFC1C8E63E900014EA5 /* ΛVΛ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 682A9B0F1C8E63E900014EA5 /* Build configuration list for PBXNativeTarget "ΛVΛ" */;
+			buildPhases = (
+				682A9AF91C8E63E900014EA5 /* Sources */,
+				682A9AFA1C8E63E900014EA5 /* Frameworks */,
+				682A9AFB1C8E63E900014EA5 /* Resources */,
+				682A9B121C8E640500014EA5 /* Update Build Information */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ΛVΛ";
+			productName = POP;
+			productReference = 682A9AFD1C8E63E900014EA5 /* ΛVΛ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		682A9AF51C8E63E900014EA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "NEOTechnica Corporation";
+				TargetAttributes = {
+					682A9AFC1C8E63E900014EA5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = J33CQ6XHJS;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 682A9AF81C8E63E900014EA5 /* Build configuration list for PBXProject "ΛVΛ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 682A9AF41C8E63E900014EA5;
+			productRefGroup = 682A9AFE1C8E63E900014EA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				682A9AFC1C8E63E900014EA5 /* ΛVΛ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		682A9AFB1C8E63E900014EA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6874043B1CB1AAEA00BD2632 /* Bariol (Bold Italic).otf in Resources */,
+				681A20131CFCD55D005BAAA9 /* Ostrich Sans (Light).otf in Resources */,
+				687404421CB1AB0000BD2632 /* Wave.jpg in Resources */,
+				6874043E1CB1AAEA00BD2632 /* Manteka.ttf in Resources */,
+				6874043D1CB1AAEA00BD2632 /* Bariol (Regular).otf in Resources */,
+				681A200E1CFCD55D005BAAA9 /* Ostrich Sans (Bold).otf in Resources */,
+				681A200F1CFCD55D005BAAA9 /* Ostrich Sans (Dashed –Medium).otf in Resources */,
+				68AD46321CFCDE3F003EC6BB /* DIN Condensed (Bold).ttf in Resources */,
+				684986061CFE4C5F004308A9 /* ding.mp3 in Resources */,
+				681A20121CFCD55D005BAAA9 /* Ostrich Sans (Inline – Regular).otf in Resources */,
+				681A20141CFCD55D005BAAA9 /* Ostrich Sans (Medium).otf in Resources */,
+				687404411CB1AB0000BD2632 /* NT.png in Resources */,
+				6874043C1CB1AAEA00BD2632 /* Bariol (Regular Italic).otf in Resources */,
+				681A20001CFCCD7D005BAAA9 /* 4 Inch.storyboard in Resources */,
+				681A1FFF1CFCCD7D005BAAA9 /* 3.5 Inch.storyboard in Resources */,
+				681A20101CFCD55D005BAAA9 /* Ostrich Sans (Heavy).otf in Resources */,
+				681A200D1CFCD55D005BAAA9 /* Ostrich Sans (Black).otf in Resources */,
+				6874043A1CB1AAEA00BD2632 /* Bariol (Bold).otf in Resources */,
+				6874044E1CB1AB4400BD2632 /* Assets.xcassets in Resources */,
+				687404511CB1AC0C00BD2632 /* Launch Screen.storyboard in Resources */,
+				681A20111CFCD55D005BAAA9 /* Ostrich Sans (Inline – Italic).otf in Resources */,
+				681A20151CFCD55D005BAAA9 /* Ostrich Sans (Rounded – Medium).otf in Resources */,
+				682A9B061C8E63E900014EA5 /* 5.5 Inch.storyboard in Resources */,
+				6889BF9A1CFF7193000FCD38 /* Info.plist in Resources */,
+				681A1FFE1CFCCD7D005BAAA9 /* 4.7 Inch.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		682A9B121C8E640500014EA5 /* Update Build Information */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Update Build Information";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\nminorReleaseNumber=$((buildNumber/150))\nbugFixReleaseNumber=$((buildNumber/50))\nCFBundleVersionINCR=1.$((minorReleaseNumber)).$((bugFixReleaseNumber))\n\nbuildDate=`date`\n\n/usr/libexec/PlistBuddy -c \"Set :CFBuildDate $buildDate\" \"$INFOPLIST_FILE\"\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\n/usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $CFBundleVersionINCR\" \"$INFOPLIST_FILE\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		682A9AF91C8E63E900014EA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6889BF9E1CFF7193000FCD38 /* Session.swift in Sources */,
+				6889BF9F1CFF7193000FCD38 /* StreamOperation.swift in Sources */,
+				6889BF981CFF7193000FCD38 /* FileDownloadOperation.swift in Sources */,
+				68666F471D02788300311F14 /* Black-Rounded-Button.swift in Sources */,
+				6889BF9B1CFF7193000FCD38 /* Operation.swift in Sources */,
+				688A4F221D1B5B3000F76DA7 /* Fade-From-Ring-Segue.swift in Sources */,
+				6889BF971CFF7193000FCD38 /* DirectoryCreationOperation.swift in Sources */,
+				68666F491D02793800311F14 /* White-Rounded-Button.swift in Sources */,
+				6889BFA01CFF7193000FCD38 /* WriteStreamOperation.swift in Sources */,
+				68EAD7E71D19ED6B0095F169 /* UIStoryboardSegue+Extensions.swift in Sources */,
+				681062121D1A044900BDFA1B /* Ring-Controller.swift in Sources */,
+				68E876561D19F888004D9CCE /* Red-Rounded-Button.swift in Sources */,
+				6889BF991CFF7193000FCD38 /* FileUploadOperation.swift in Sources */,
+				6874044D1CB1AB4400BD2632 /* AppDelegate.swift in Sources */,
+				6889BF9D1CFF7193000FCD38 /* ResourceListOperation.swift in Sources */,
+				6889BF9C1CFF7193000FCD38 /* ReadStreamOperation.swift in Sources */,
+				68EAD7E51D19EBC90095F169 /* Fade-From-Main-Segue.swift in Sources */,
+				687404481CB1AB3400BD2632 /* Main-Controller.swift in Sources */,
+				6889BF8B1CFF64B2000FCD38 /* Outlined-Label.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		682A9B041C8E63E900014EA5 /* 5.5 Inch.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				682A9B051C8E63E900014EA5 /* Base */,
+			);
+			name = "5.5 Inch.storyboard";
+			sourceTree = "<group>";
+		};
+		6874044F1CB1AC0C00BD2632 /* Launch Screen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				687404501CB1AC0C00BD2632 /* Base */,
+			);
+			name = "Launch Screen.storyboard";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		682A9B0D1C8E63E900014EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		682A9B0E1C8E63E900014EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		682A9B101C8E63E900014EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Application Icon";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Application/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neotechnica.avalon;
+				PRODUCT_NAME = "ΛVΛ";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		682A9B111C8E63E900014EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Application Icon";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Application/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neotechnica.avalon;
+				PRODUCT_NAME = "ΛVΛ";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		682A9AF81C8E63E900014EA5 /* Build configuration list for PBXProject "ΛVΛ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				682A9B0D1C8E63E900014EA5 /* Debug */,
+				682A9B0E1C8E63E900014EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		682A9B0F1C8E63E900014EA5 /* Build configuration list for PBXNativeTarget "ΛVΛ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				682A9B101C8E63E900014EA5 /* Debug */,
+				682A9B111C8E63E900014EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 682A9AF51C8E63E900014EA5 /* Project object */;
+}
