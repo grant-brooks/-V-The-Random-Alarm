@@ -23,7 +23,7 @@ When the time of your alarm comes, **ΛVΛ** will ring up to 64 times before fin
 
 #Update 3.5.16
 ######X XX, 20XX
-**SKU:** 0207-AVA-010820
+**SKU:** 0207-AVA-010823
 
 
 ##Changes in this Version
