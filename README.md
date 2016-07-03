@@ -28,7 +28,7 @@ When the time of your alarm comes, **ΛVΛ** will ring up to 64 times before fin
 
 ##Changes in this Version
 
-• Minor user interface tweaks/changes.
+• *Minor user interface tweaks/changes.*
 
 ---------------------------------------------------------------------------------------------------------------------
 
