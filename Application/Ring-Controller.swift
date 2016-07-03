@@ -101,8 +101,6 @@ class RC: UIViewController
         }
         else if onDay == 1
         {
-            updateTimer.invalidate()
-            
             firstDatePicker.setDate(NSCalendar.currentCalendar().startOfDayForDate(NSDate()), animated: false)
             firstDatePicker.minimumDate = firstDatePicker.calendar.dateByAddingUnit(.Day, value: 1, toDate: firstDatePicker.date, options: [])
             
@@ -117,11 +115,16 @@ class RC: UIViewController
     
     func updateDate()
     {
-        if updateTimer.valid == true
+        if shouldRingToday == true
         {
             let currentDate = NSCalendar.currentCalendar().dateBySettingUnit(.Second, value: 0, ofDate: NSDate(), options: [])!
             
             firstDatePicker.minimumDate = NSCalendar.currentCalendar().dateByAddingUnit(.Minute, value: -1, toDate: currentDate, options: [])!
+            secondDatePicker.minimumDate = firstDatePicker.calendar.dateByAddingUnit(.Minute, value: 1, toDate: firstDatePicker.date, options: [])
+        }
+        else
+        {
+            firstDatePicker.minimumDate = NSCalendar.currentCalendar().startOfDayForDate(NSDate())
             secondDatePicker.minimumDate = firstDatePicker.calendar.dateByAddingUnit(.Minute, value: 1, toDate: firstDatePicker.date, options: [])
         }
     }

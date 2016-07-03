@@ -96,7 +96,7 @@ class MC: UIViewController
     var applicationGeneration:    String!
     var applicationSku:           String!
     var currentCaptureLink:       String!
-    var developmentState:         String! = "i"
+    var developmentState:         String! = "p"
     var formattedVersionNumber:   String!
     var preReleaseNotifierString: String!
     
@@ -179,7 +179,7 @@ class MC: UIViewController
         preReleaseNotifierLabel.text = preReleaseNotifierString
         
         //Format the version number for later display.
-        formattedVersionNumber = "1." + String(minorReleaseNumber) + "." + String(bugFixReleaseNumber)
+        formattedVersionNumber = "3." + String(minorReleaseNumber) + "." + String(bugFixReleaseNumber)
         
         //Determine what is displayed on the 'buildButton' button.
         if versionChoice == 0
@@ -808,8 +808,19 @@ class MC: UIViewController
             designationSubtitleLabel.text = "INT-TES"
         }
         
+        var applicationGenerationAsIntegerAsString: String! = ""
+        
+        if String(applicationGenerationAsInteger).characters.count == 1
+        {
+            applicationGenerationAsIntegerAsString = "0" + String(applicationGenerationAsInteger)
+        }
+        else if String(applicationGenerationAsInteger).characters.count == 2
+        {
+            applicationGenerationAsIntegerAsString = String(applicationGenerationAsInteger)
+        }
+        
         //Set the application SKU.
-        applicationSku = "\(skuDate)-\(applicationName.uppercaseString)-\(String(applicationGenerationAsInteger) + formattedBuildNumberAsString)"
+        applicationSku = "\(skuDate)-\(applicationName.uppercaseString)-\(applicationGenerationAsIntegerAsString + formattedBuildNumberAsString)"
     }
     
     func setButtonElementsForWhiteRoundedButton(roundedButton: WRB, buttonTitle: String, buttonTarget: String?, buttonEnabled: Bool)
