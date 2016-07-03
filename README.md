@@ -21,11 +21,33 @@ When the time of your alarm comes, **ΛVΛ** will ring up to 64 times before fin
 
 ---------------------------------------------------------------------------------------------------------------------
 
-######All information is pulled from ΛVΛ's page on the iOS App Store. You can visit this page [here] (http://www.neotechnica.us).
+#Update 3.5.16
+######X XX, 20XX
+**SKU:** 0207-AVA-010820
+
+
+##Changes in this Version
+
+• Minor user interface tweaks/changes.
 
 ---------------------------------------------------------------------------------------------------------------------
 
-#####Avalon | 3005-AVA-00010
+#Update 2.5.16
+######July 1, 2016
+**SKU:** 3006-AVA-010819
+
+
+##Changes in this Version
+
+• Fixed a bug in which the application would crash when creating certain alarms.
+
+---------------------------------------------------------------------------------------------------------------------
+
+######All information is pulled from ΛVΛ's page on the iOS App Store. You can visit this page [here] (https://itunes.apple.com/us/app/lvl-the-random-alarm/id1127585064?mt=8).
+
+---------------------------------------------------------------------------------------------------------------------
+
+#####Avalon | 3005-AVA-000010
 
 **Copyright © 2016 NEOTechnica Corporation  
 All rights reserved.**
